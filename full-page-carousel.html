@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Edwin Kibe Gitau</title>
+  <!-- Uhai Centre icon -->
+  <link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-video-carousel.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <!--Main Navigation-->
+  <header>
+    <style>
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .carousel-item:nth-child(1) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #introCarousel {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav
+        class="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
+        style="z-index: 2000"
+        >
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a
+          class="navbar-brand nav-link"
+          target="_blank"
+          href="https://mdbootstrap.com/docs/standard/"
+          >
+          <strong>Edwin Kibe</strong>
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+                rel="nofollow"
+                target="_blank"
+                >Services</a
+                >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                >Contact Us</a
+                >
+            </li>
+          </ul>
+
+          <ul class="navbar-nav list-inline">
+            <!-- Icons -->
+            <li class="">
+              <a
+                class="nav-link"
+                href="https://www.youtube.com/channel/UCKSUAnPlZAicdjzLL-b4EZA"
+                rel="nofollow"
+                target="_blank"
+                >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="">
+              <a
+                class="nav-link"
+                href="https://web.facebook.com/kibe.edwingitau"
+                rel="nofollow"
+                target="_blank"
+                >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://twitter.com/Gitaukibe"
+                rel="nofollow"
+                target="_blank"
+                >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+             <li class="nav-item">
+              <a
+                class="nav-link"
+                href="mailto:edwingitaukibe@gmail.com"
+                rel="nofollow"
+                target="_blank"
+                >
+               <i class="fab fa-google"></i>
+
+              </a>
+            </li>             
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/TheGeekManu"
+                rel="nofollow"
+                target="_blank"
+                >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Carousel wrapper -->
+    <div
+        id="introCarousel"
+        class="carousel slide carousel-fade shadow-2-strong"
+        data-mdb-ride="carousel"
+        >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li
+            data-mdb-target="#introCarousel"
+            data-mdb-slide-to="0"
+            class="active"
+            ></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+      </ol>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <video
+                style="min-width: 100%; min-height: 100%"
+                playsinline
+                autoplay
+                muted
+                loop
+                >
+            <source
+                    class="h-100"
+                    src="https://mdbootstrap.com/img/video/Lines.mp4"
+                    type="video/mp4"
+                    />
+          </video>
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+            <div
+                class="d-flex justify-content-center align-items-center h-100"
+                >
+              <div class="text-white text-center">
+                <h1 class="mb-3">About Edwin Kibe</h1>
+                <h5 class="mb-4">
+                  The best Drug and Substance Abuse Counsellor.
+                </h5>
+                <a
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                  role="button"
+                  rel="nofollow"
+                  target="_blank"
+                  >Start Recovery</a
+                  >
+                <a
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://mdbootstrap.com/docs/standard/"
+                  target="_blank"
+                  role="button"
+                  >Discover Other Recovering Fellows</a
+                  >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <video
+                style="min-width: 100%; min-height: 100%"
+                playsinline
+                autoplay
+                muted
+                loop
+                >
+            <source
+                    class="h-100"
+                    src="https://mdbootstrap.com/img/video/forest.mp4"
+                    type="video/mp4"
+                    />
+          </video>
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.3)">
+            <div
+                class="d-flex justify-content-center align-items-center h-100"
+                >
+              <div class="text-white text-center">
+                <h2>Services Offered by Edwin Kibe</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <video
+                style="min-width: 100%; min-height: 100%"
+                playsinline
+                autoplay
+                muted
+                loop
+                >
+            <source
+                    class="h-100"
+                    src="https://mdbootstrap.com/img/video/Tropical.mp4"
+                    type="video/mp4"
+                    />
+          </video>
+          <div
+              class="mask"
+              style="
+                      background: linear-gradient(
+                      45deg,
+                      rgba(29, 236, 197, 0.7),
+                      rgba(91, 14, 214, 0.7) 100%
+                      );
+                      "
+              >
+            <div
+                class="d-flex justify-content-center align-items-center h-100"
+                >
+              <div class="text-white text-center">
+                <h2>Meet Edwin Kibe</h2>
+                <a
+                  class="btn btn-outline-light btn-lg m-2"
+                  href="https://mdbootstrap.com/docs/standard/content-styles/masks/"
+                  target="_blank"
+                  role="button"
+                  >Do you need help?</a
+                  >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <a
+        class="carousel-control-prev"
+        href="#introCarousel"
+        role="button"
+        data-mdb-slide="prev"
+        >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#introCarousel"
+        role="button"
+        data-mdb-slide="next"
+        >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Carousel wrapper -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div
+                class="bg-image hover-overlay ripple shadow-2-strong"
+                data-mdb-ripple-color="light"
+                >
+              <img
+                  src="https://mdbootstrap.com/img/new/slides/031.jpg"            height="100vh"
+                  class="img-fluid"
+                  />
+              <a href="#!">
+                <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                    ></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4">
+            <h4><strong>What is drug addiction?</strong></h4>
+            <p class="text-muted">
+Addiction is defined as a chronic, relapsing disorder characterized by compulsive drug seeking and use despite adverse consequences.It is considered a brain disorder, because it involves functional changes to brain circuits involved in reward, stress, and self-control. Those changes may last a long time after a person has stopped taking drugs.
+
+Addiction is a lot like other diseases, such as heart disease. Both disrupt the normal, healthy functioning of an organ in the body, both have serious harmful effects, and both are, in many cases, preventable and treatable. If left untreated, they can last a lifetime and may lead to death.
+            </p>
+            <p><h4><strong>Why do people take drugs?</strong></h4></p>
+            <p class="text-muted">
+              <ul class="list-unstyled">
+  <li><i class="fas fa-laptop-code"></i></i><b>To feel good.</b><br> Drugs can produce intense feelings of pleasure. This initial euphoria is followed by other effects, which differ with the type of drug used. For example, with stimulants such as cocaine, the high is followed by feelings of power, self-confidence, and increased energy. In contrast, the euphoria caused by opioids such as heroin is followed by feelings of relaxation and satisfaction.</li>
+
+  <li><i class="fas fa-arrow-circle-down"></i><b>To feel better.</b><br> Some people who suffer from social anxiety, stress, and depression start using drugs to try to feel less anxious. Stress can play a major role in starting and continuing drug use as well as relapse (return to drug use) in patients recovering from addiction.</li>
+  <li><i class="fas fa-book-open"></i><b>To do better.</b><br> Some people feel pressure to improve their focus in school or at work or their abilities in sports. This can play a role in trying or continuing to use drugs, such as prescription stimulants or cocaine.</li>
+  <li><i class="fas fa-cloud"></i><b>Curiosity and social pressure.</b><br> In this respect, teens are particularly at risk because peer pressure can be very strong. Adolescence is a developmental period during which the presence of risk factors, such as peers who use drugs, may lead to substance use.</li>
+</ul>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="mb-5"><strong>Staff Contacts.</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                  >
+                <img
+                    src="data:image/jpeg;base64,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"
+                    class="img-fluid"
+                    />
+                <a href="#!">
+                  <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Edwin Kibe</h5>
+                <p class="card-text">
+                  Director Uhai Centre, Degree, Masters, Ongoing PHD, Mentor, Pyschologist, Counsellor, Sponsor, Recovering Addict.
+                </p>
+                <a href="#!" class="btn btn-primary">See More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                  >
+                <img
+                    src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    class="img-fluid"
+                    />
+                <a href="#!">
+                  <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                  >
+                <img
+                    src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                    class="img-fluid"
+                    />
+                <a href="#!">
+                  <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="mb-5">
+        <h4 class="mb-5 text-center">
+          <strong>Quick Registration</strong>
+        </h4>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input
+                          type="text"
+                          id="form3Example1"
+                          class="form-control"
+                          />
+                    <label class="form-label" for="form3Example1"
+                          >First name</label
+                      >
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input
+                          type="text"
+                          id="form3Example2"
+                          class="form-control"
+                          />
+                    <label class="form-label" for="form3Example2"
+                          >Last name</label
+                      >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control" />
+                <label class="form-label" for="form3Example3"
+                      >Email address</label
+                  >
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input
+                      type="password"
+                      id="form3Example4"
+                      class="form-control"
+                      />
+                <label class="form-label" for="form3Example4">Password</label>
+              </div>
+
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input
+                      class="form-check-input me-2"
+                      type="checkbox"
+                      value=""
+                      id="form2Example3"
+                      checked
+                      />
+                <label class="form-check-label" for="form2Example3">
+                  Subscribe to our newsletter
+                </label>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Sign up
+              </button>
+
+              <!-- Register buttons -->
+              <div class="text-center">
+                <p>or sign up with:</p>
+                <button
+                        type="button"
+                        class="btn btn-primary btn-floating mx-1"
+                        >
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+
+                <button
+                        type="button"
+                        class="btn btn-primary btn-floating mx-1"
+                        >
+                  <i class="fab fa-google"></i>
+                </button>
+
+                <button
+                        type="button"
+                        class="btn btn-primary btn-floating mx-1"
+                        >
+                  <i class="fab fa-twitter"></i>
+                </button>
+
+                <button
+                        type="button"
+                        class="btn btn-primary btn-floating mx-1"
+                        >
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="py-4 text-center">
+      <a
+        role="button"
+        class="btn btn-primary btn-lg m-2"
+        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+        rel="nofollow"
+        target="_blank"
+        >
+        Learn More About Addiction
+      </a>
+      <a
+        role="button"
+        class="btn btn-primary btn-lg m-2"
+        href="https://mdbootstrap.com/docs/standard/"
+        target="_blank"
+        >
+        Download our app
+      </a>
+    </div>
+
+    <hr class="m-0" />
+
+    <div class="text-center py-4 align-items-center">
+      <p>Follow Edwin Kibe on social media</p>
+      <a
+        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+        class="btn btn-primary m-1"
+        role="button"
+        rel="nofollow"
+        target="_blank"
+        >
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/mdbootstrap"
+        class="btn btn-primary m-1"
+        role="button"
+        rel="nofollow"
+        target="_blank"
+        >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a
+        href="https://twitter.com/MDBootstrap"
+        class="btn btn-primary m-1"
+        role="button"
+        rel="nofollow"
+        target="_blank"
+        >
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a
+        href="https://github.com/mdbootstrap/mdb-ui-kit"
+        class="btn btn-primary m-1"
+        role="button"
+        rel="nofollow"
+        target="_blank"
+        >
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">www.kibeedwingitau.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
